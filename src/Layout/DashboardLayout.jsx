@@ -17,7 +17,7 @@ const DashboardLayout = () => {
 
     
     return (
-        <div>
+        <div >
             <div className="navbar bg-base-100 border-b-2 mb-2">
                 <div className="flex-none">
                     {sidebarVisibility? <button onClick={toggleSidebar} className="btn btn-square btn-ghost lg:hidden block">
@@ -55,7 +55,9 @@ const DashboardLayout = () => {
         <div className="flex">
                 {/* sidebar start */}
               
-                <div className={`w-64 min-h-screen bg-black text-white lg:block lg:relative ${sidebarVisibility ? 'absolute z-10' : 'hidden'} transition duration-200 ease-in-out`}>
+                <div className={`w-64 min-h-screen bg-black text-white lg:block lg:relative ${sidebarVisibility ? 'absolute z-10' : 'hidden'} transition duration-200 ease-in-out`} data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
                     <ul className="menu p-4">
                         
                             <>

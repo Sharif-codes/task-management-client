@@ -88,7 +88,9 @@ const Signup = () => {
     // console.log(watch("photo")) // watch input value by passing the name of it
 
     return (
-        <div className='flex justify-center items-center min-h-screen'>
+        <div className='flex justify-center items-center min-h-screen' data-aos="flip-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <div className='flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-gray-100 text-gray-900'>
                 <div className='mb-8 text-center'>
                     <h1 className='my-3 text-4xl font-bold'>Sign Up</h1>
