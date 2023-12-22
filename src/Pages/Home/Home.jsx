@@ -10,7 +10,7 @@ const Home = () => {
             <div className="hero-overlay bg-opacity-10 rounded-xl"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md ">
-                    <h1 className="text-2xl md:text-5xl font-bold text-primary">Welcome Back</h1>
+                    <h1 className="text-2xl md:text-5xl font-bold text-primary">Lets Make Your To-do</h1>
                     {/* <p className="text-center text-gray-700">Manage Yout Task Now</p> */}
                     <Link to= "/dashboard"><button className="btn btn-primary mt-2 md:mt-5">Let’s Explore</button></Link>
                 </div>

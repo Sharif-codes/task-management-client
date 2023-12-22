@@ -82,7 +82,7 @@ const TaskManage = () => {
   },[tasks])
   const statusList = ["todo", "ongoing","complete"]
   return (
-    <div className='flex gap-16'>
+    <div className='grid grid-cols-1 md:grid-cols-3 gap-12'>
       {statusList.map((status,index)=><Section key={index} status={status}tasks={tasks} todos={todos} ongoing={ongoing} complete={complete} refetch={refetch}></Section> )}
     </div>
     

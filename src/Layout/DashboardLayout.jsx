@@ -32,7 +32,7 @@ const DashboardLayout = () => {
                 <div className="flex-1 flex items-center">
                 <img className="w-10" src="logo-casa.svg" alt="" />
                 <p className="ml-2 hidden md:block
-                 text-lg md:text-xl font-semibold">Task <span className="text-primary">Management</span></p>
+                 text-lg md:text-xl font-semibold">Task <span className="text-primary">Manager</span></p>
             </div>
                 <div className="flex gap-3">
                 

@@ -25,11 +25,11 @@ const Task = ({ task, tasks, refet }) => {
             })
     }
     return (
-        <div ref={drag} className={`relative p-4 mt-8 shadow-md rounded-md cursor-grab ${isDragging ? "opacity-25" : "opacity-100"}`}>
+        <div  data-aos="fade-down" ref={drag} className={`relative p-4 mt-8 shadow-md rounded-md cursor-grab ${isDragging ? "opacity-25" : "opacity-100"}`}>
             <p className="font-semibold">{task?.title}</p>
             <p className="text-sm text-gray-400">{task?.description}</p>
             <p className="text-xs text-orange-400">Deadline: {task?.deadline}</p>
-            <button className="absolute bottom-4 right-1 text-slate-400 ml-3" onClick={() => handleRemove(task?._id)}><TiDeleteOutline className="text-xl text-red-500" /></button>
+            <button className="absolute bottom-4 right-1 text-slate-400 ml-3" onClick={() => handleRemove(task?._id)}><TiDeleteOutline className="text-2xl text-red-500" /></button>
         </div>
     );
 };
